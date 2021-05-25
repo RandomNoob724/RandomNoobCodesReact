@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = ({ title }) => {
   return (
     <div>
       <Router>
         <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-dark bg-dark">
           <Link class="navbar-brand" to="/">
-            RandomNoobCodes
+            {title}
           </Link>
           <ul class="navbar-nav">
             <li class="nav-item">

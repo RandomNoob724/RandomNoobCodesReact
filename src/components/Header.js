@@ -4,7 +4,7 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <div>
-      <Nav />
+      <Nav title="RandomNoobCodes" />
     </div>
   );
 };
