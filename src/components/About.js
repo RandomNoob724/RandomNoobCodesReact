@@ -7,7 +7,7 @@ const About = () => {
         <div className="col-md-4">
           <img
             src="profilepicture.png"
-            alt="Profile Picture of Emil Persson"
+            alt="Person sitting down in profile"
             className="rounded-circle"
           />
         </div>

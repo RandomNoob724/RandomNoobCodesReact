@@ -1,0 +1,18 @@
+#main-header {
+  background-image: url("http://localhost:3000/images/page-one-background.jpg");
+  color: white;
+  padding: 10em 0 40em 0;
+}
+
+#main-header h1 {
+  font-size: 4em;
+}
+
+#main-header h3 {
+  font-size: 3em;
+}
+
+#no-link-style {
+  color: white;
+  text-decoration: none;
+}

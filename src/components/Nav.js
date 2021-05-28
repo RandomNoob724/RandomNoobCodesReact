@@ -4,38 +4,38 @@ import { Link } from "react-router-dom";
 const Nav = ({ title }) => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-dark bg-dark">
-        <Link class="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-lg navbar-expand-sm navbar-dark bg-dark">
+        <Link className="navbar-brand" to="/">
           {title}
         </Link>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <Link class="nav-link" to="/">
-              Home <span class="sr-only">(current)</span>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link className="nav-link" to="/">
+              Home
             </Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/portfolio">
+          <li className="nav-item">
+            <Link className="nav-link" to="/portfolio">
               Portfolio
             </Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/about">
+          <li className="nav-item">
+            <Link className="nav-link" to="/about">
               About
             </Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/contact">
+          <li className="nav-item">
+            <Link className="nav-link" to="/contact">
               Contact
             </Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/blog">
+          <li className="nav-item">
+            <Link className="nav-link" to="/blog">
               Blog
             </Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/admin">
+          <li className="nav-item">
+            <Link className="nav-link" to="/admin">
               Admin Panel
             </Link>
           </li>
